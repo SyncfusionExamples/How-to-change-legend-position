@@ -2,7 +2,7 @@
 
 This article explains how to change the legend position in Blazor Chart Component.
 
-**Customizing the legend position in Blazor chart**
+**Customize the legend position**
 
 You can change the position of the legend using the [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartLegendSettings.html#Syncfusion_Blazor_Charts_ChartLegendSettings_Position) property in [ChartLegendSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartLegendSettings.html). By default, the legend position is set to [Auto](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.LegendPosition.html#Syncfusion_Blazor_Charts_LegendPosition_Auto), which is determined by the area type of the chart.
 
