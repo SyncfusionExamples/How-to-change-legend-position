@@ -1,4 +1,4 @@
-# How-to-change-legend-position 
+# How-to-change-legend-position
 
 This article explains how to change the legend position in Blazor Chart Component.
 
