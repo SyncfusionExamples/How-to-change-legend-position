@@ -1,16 +1,23 @@
 # How-to-change-legend-position
 
-This article explains how to change the legend position in Blazor chart.
+This article explains how to change the legend position in Blazor Chart Component.
 
-**Changing legend position using Position property**
+**Customize the legend position**
 
-[Blazor chart](https://www.syncfusion.com/blazor-components/blazor-charts) provides you the support to change the position of the legend relative to the chart area using coordinates or the [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartLegendSettings.html#Syncfusion_Blazor_Charts_ChartLegendSettings_Position) property in [ChartLegendSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartLegendSettings.html).
+You can change the position of the legend using the [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartLegendSettings.html#Syncfusion_Blazor_Charts_ChartLegendSettings_Position) property in [ChartLegendSettings](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartLegendSettings.html). By default, the legend position is set to [Auto](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.LegendPosition.html#Syncfusion_Blazor_Charts_LegendPosition_Auto), which is determined by the area type of the chart.
 
-The legend can be placed at [Left](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.LegendPosition.html#Syncfusion_Blazor_Charts_LegendPosition_Left), [Right](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.LegendPosition.html#Syncfusion_Blazor_Charts_LegendPosition_Right), [Top](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.LegendPosition.html#Syncfusion_Blazor_Charts_LegendPosition_Top), [Bottom](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.LegendPosition.html#Syncfusion_Blazor_Charts_LegendPosition_Bottom) or [Custom](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.LegendPosition.html#Syncfusion_Blazor_Charts_LegendPosition_Custom)(using X and Y coordinates) position of the chart using the [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartLegendSettings.html#Syncfusion_Blazor_Charts_ChartLegendSettings_Position)property. By default, the legend appears at the bottom of the chart.
+The [Position](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartLegendSettings.html#Syncfusion_Blazor_Charts_ChartLegendSettings_Position) property includes the following options:
 
-The following code illustrates how to change the legend position.
+* [Auto](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.LegendPosition.html#Syncfusion_Blazor_Charts_LegendPosition_Auto) - Places the legend based on the area type.
+* [Top](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.LegendPosition.html#Syncfusion_Blazor_Charts_LegendPosition_Top) - Displays the legend at the top of the chart.
+* [Bottom](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.LegendPosition.html#Syncfusion_Blazor_Charts_LegendPosition_Bottom) - Displays the legend at the bottom of the chart.
+* [Right](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.LegendPosition.html#Syncfusion_Blazor_Charts_LegendPosition_Right) - Displays the legend at the right of the chart.
+* [Left](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.LegendPosition.html#Syncfusion_Blazor_Charts_LegendPosition_Left) - Displays the legend at the left of the chart.
+* [Custom](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.LegendPosition.html#Syncfusion_Blazor_Charts_LegendPosition_Custom)(using X and Y coordinates) - Displays the legend based on the given x and y values.
 
-**C#**
+In the following code example, the legend can be positioned at the left by using the Position property. 
+
+**Index.razor**
 
 ```cshtml
 
@@ -53,11 +60,21 @@ The following code illustrates how to change the legend position.
 
 ```
 
-The following screenshot illustrate the output of the above code snippet.
+The screenshots below display the results of the aforementioned code.
 
 **Output:**
 
-![](/legend-position.png)
+**Screenshot: Legend docked at Left**
+![Left](Left.png)
+
+**Screenshot: Legend docked at Bottom**
+![Bottom](Bottom.png)
+
+**Screenshot: Legend docked at Right**
+![Right](Right.png)
+
+**Screenshot: Legend docked at Custom**
+![Custom](Custom.png)
 
 **Conclusion**
 
@@ -68,4 +85,3 @@ You can refer to our [Blazor Chart feature tour](https://www.syncfusion.com/blaz
 For current customers, you can check out our components from the [License and Downloads](https://www.syncfusion.com/sales/teamlicense) page. If you are new to Syncfusion, you can try our 30-day [free trial](https://www.syncfusion.com/downloads/blazor) to check out our other controls.
 
 If you have any queries or require clarifications, please let us know in the comments section below. You can also contact us through our [support forums](https://www.syncfusion.com/forums), [support portal](https://support.syncfusion.com/create), or [feedback portal](https://www.syncfusion.com/feedback/blazor-components?control=charts). We are always happy to assist you!
-
