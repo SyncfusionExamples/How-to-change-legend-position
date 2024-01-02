@@ -64,15 +64,17 @@ The screenshots below display the results of the aforementioned code.
 
 **Output:**
 
-**Screenshot: Legend docked at Bottom**
-
 **Screenshot: Legend docked at Left**
+![Left](Left.png)
+
+**Screenshot: Legend docked at Bottom**
+![Bottom](Bottom.png)
 
 **Screenshot: Legend docked at Right**
+![Right](Right.png)
 
 **Screenshot: Legend docked at Custom**
-
-![](/legend-position.png)
+![Custom](Custom.png)
 
 **Conclusion**
 
